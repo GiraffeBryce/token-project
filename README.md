@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
+Created three smart contracts:
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+-A token contract that defines a BRYCE token
+-A faucet contract where you can drip some BRYCE tokens into your wallet 
+-A crowdsale contract where you can BRYCE tokens with a conversion rate of .01 Goerli ETH for 100 BRYCE coins
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Token: https://goerli.etherscan.io/address/0x91A738deA8b317C8Ba6ABDEF013Aa69C8a78100A
+Faucet: https://goerli.etherscan.io/address/0x5D8ACa733f9f7CBc2288F3DcEC766b761e418BC8
+Crowdsale: https://goerli.etherscan.io/address/0x111fecfd789af2168de05ecdecbb78cee6620d90
